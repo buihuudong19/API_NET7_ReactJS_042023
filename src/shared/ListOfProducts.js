@@ -1,9 +1,9 @@
 const lstProducts = [
-    {id: 1, price: 456, discount:10, shortTitle: 'Colorful Stylish Shirt 1', imgOfProduct:'./cat-1.jpg'},
-    {id: 2, price: 789, discount:10, shortTitle: 'Colorful Stylish Shirt 2', imgOfProduct:'./cat-2.jpg'},
-    {id: 3, price: 456, discount:10, shortTitle: 'Colorful Stylish Shirt 3', imgOfProduct:'./cat-3.jpg'},
-    {id: 4, price: 254, discount:10, shortTitle: 'Colorful Stylish Shirt 4', imgOfProduct:'./cat-4.jpg'},
-    {id: 5, price: 598, discount:10, shortTitle: 'Colorful Stylish Shirt 5', imgOfProduct:'./cat-5.jpg'},
-    {id: 6, price: 456, discount:10, shortTitle: 'Colorful Stylish Shirt 6', imgOfProduct:'./cat-6.jpg'},
+    {id: 1, price: 456, discount:10, shortTitle: 'Colorful Stylish Shirt', imgOfProduct:'./cat-1.jpg',info:'Thiết kế trẻ trung, thanh lịch, phù hợp cho những buổi tiệc nhẹ nhàng, dạo phố. Thành phần: 100% Polyester, Điểm nhấn là thiết kế nơ trên ngực áo có đính hàng ngọc trai khéo tôn vòng 1 một tinh tế'},
+    {id: 2, price: 456, discount:10, shortTitle: 'Colorful Stylish Shirt', imgOfProduct:'./cat-2.jpg',info:'Thiết kế trẻ trung, thanh lịch, phù hợp cho những buổi tiệc nhẹ nhàng, dạo phố. Thành phần: 100% Polyester, Điểm nhấn là thiết kế nơ trên ngực áo có đính hàng ngọc trai khéo tôn vòng 1 một tinh tế'},
+    {id: 3, price: 456, discount:10, shortTitle: 'Colorful Stylish Shirt', imgOfProduct:'./cat-3.jpg',info:'Thiết kế trẻ trung, thanh lịch, phù hợp cho những buổi tiệc nhẹ nhàng, dạo phố. Thành phần: 100% Polyester, Điểm nhấn là thiết kế nơ trên ngực áo có đính hàng ngọc trai khéo tôn vòng 1 một tinh tế'},
+    {id: 4, price: 456, discount:10, shortTitle: 'Colorful Stylish Shirt', imgOfProduct:'./cat-4.jpg',info:'Thiết kế trẻ trung, thanh lịch, phù hợp cho những buổi tiệc nhẹ nhàng, dạo phố. Thành phần: 100% Polyester, Điểm nhấn là thiết kế nơ trên ngực áo có đính hàng ngọc trai khéo tôn vòng 1 một tinh tế'},
+    {id: 5, price: 456, discount:10, shortTitle: 'Colorful Stylish Shirt', imgOfProduct:'./cat-5.jpg',info:'Thiết kế trẻ trung, thanh lịch, phù hợp cho những buổi tiệc nhẹ nhàng, dạo phố. Thành phần: 100% Polyester, Điểm nhấn là thiết kế nơ trên ngực áo có đính hàng ngọc trai khéo tôn vòng 1 một tinh tế'},
+    {id: 6, price: 456, discount:10, shortTitle: 'Colorful Stylish Shirt', imgOfProduct:'./cat-6.jpg',info:'Thiết kế trẻ trung, thanh lịch, phù hợp cho những buổi tiệc nhẹ nhàng, dạo phố. Thành phần: 100% Polyester, Điểm nhấn là thiết kế nơ trên ngực áo có đính hàng ngọc trai khéo tôn vòng 1 một tinh tế'},
 ];
 export default lstProducts;
