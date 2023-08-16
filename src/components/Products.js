@@ -6,7 +6,7 @@ const Products = (props) => {
     const lstProducts = props.products;
     //Sử dụng useState để khởi tạo biến product ban đầu = {}
     const [product, setProduct] = useState({});
-    console.log(product);
+
     return (
         
         <div className="container-fluid pt-5">
