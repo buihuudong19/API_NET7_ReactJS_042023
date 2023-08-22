@@ -3,16 +3,24 @@ import './App.css';
 import TopBar from './components/TopBar';
 import Header from './components/Header'; //component
 import Products from './components/Products';
-import Employee from './components/Test';
 import PopularProduct from './components/PopularProduct';
-import TestHook from './components/Test';
+import {Routes, Route} from 'react-router-dom'
+import Contact from './components/Contact';
+import ProductDetail from './components/ProductDetail';
+
+
 //function component
+// abc.com.vn
 function App() {
   return (
     <div className="App">
       <TopBar/>
       <Header/>
-      <PopularProduct/>
+      <Routes>
+        <Route path='/' element={<PopularProduct/>} ></Route>
+        <Route path='/contact' element={<Contact/>}></Route>
+        <Route path='/detail/:id' element={<ProductDetail/>}></Route>
+      </Routes>
     </div>
   );
 }

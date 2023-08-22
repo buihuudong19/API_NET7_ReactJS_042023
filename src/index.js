@@ -9,13 +9,24 @@ import './assets/vendors/bootstrap/bootstrap.css'
 import './assets/vendors/lib/owlcarousel/assets/owl.carousel.min.css'
 /*</import  by Dongbh*/
 
+import { ThemeProvider } from './components/ThemeContext';
+import { BrowserRouter } from 'react-router-dom';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider>
+        <BrowserRouter>
+          <App /> 
+        </BrowserRouter>
+    </ThemeProvider>
   </React.StrictMode>
 );
+
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

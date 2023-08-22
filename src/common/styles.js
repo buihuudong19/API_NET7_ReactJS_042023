@@ -11,6 +11,9 @@ const styleCommon = {
      maxWidth700px:"700px",
      marginTopNagative1px: "-1px",
      paddingTopBot30px:"30px",
+     detailProduct:{
+        minHeight300: "300px"
+     }
 }
 
 export default styleCommon;
