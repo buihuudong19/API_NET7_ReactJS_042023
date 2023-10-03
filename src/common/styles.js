@@ -6,6 +6,7 @@ const styleCommon = {
     },
      height410px:"410px",
      width45px:"45px",
+     width130px: "130px",
      height45px:"45px",
      height65px:"65px",
      maxWidth700px:"700px",

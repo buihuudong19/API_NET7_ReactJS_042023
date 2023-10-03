@@ -14,7 +14,6 @@ export default class Header extends Component{
                     <div className="col-lg-9">
                         <Navigation/>
                         <Slider/>
-                       
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import TopBar from './components/TopBar';
 import Header from './components/Header'; //component
@@ -10,7 +10,6 @@ import ProductDetail from './components/ProductDetail';
 
 
 //function component
-// abc.com.vn
 function App() {
   return (
     <div className="App">
