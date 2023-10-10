@@ -4,6 +4,8 @@ import { useContext } from 'react'
 import { ThemeContext } from "./ThemeContext";
 import { Link } from "react-router-dom";
 
+import { Navbar, NavItem, Icon } from "react-materialize";
+
 
 export default function Navigation(){
 
@@ -18,7 +20,8 @@ export default function Navigation(){
                 </button>
                 <div style={{ backgroundColor: theme.backgroundColor, color: theme.color }} className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div className="navbar-nav mr-auto py-0">
-                        <a style={{color: theme.color }} href="index.html" className="nav-item nav-link active">Home</a>
+                        <Link to='/' style={{color: theme.color }} className="nav-item nav-link active"> Home</Link>
+                        <a style={{color: theme.color }} href="index.html" className="nav-item nav-link active">Home Old</a>
                         <a style={{color: theme.color }} href="shop.html" className="nav-item nav-link">Shop</a>
                         <a style={{color: theme.color }} href="detail.html" className="nav-item nav-link">Shop Detail</a>
                         <div className="nav-item dropdown">

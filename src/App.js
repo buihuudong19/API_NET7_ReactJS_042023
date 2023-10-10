@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 import ProductDetail from './components/ProductDetail';
 
 
-//function component
+//function component: forward, redirect
 function App() {
   return (
     <div className="App">

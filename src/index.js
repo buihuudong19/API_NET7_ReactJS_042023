@@ -7,6 +7,10 @@ import reportWebVitals from './reportWebVitals';
 /*<import  by Dongbh*/
 import './assets/vendors/bootstrap/bootstrap.css'
 import './assets/vendors/lib/owlcarousel/assets/owl.carousel.min.css'
+
+import M from 'materialize-css'
+import 'materialize-css/dist/css/materialize.min.css'
+
 /*</import  by Dongbh*/
 
 import { ThemeProvider } from './components/ThemeContext';
